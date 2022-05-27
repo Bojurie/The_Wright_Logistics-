@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat',
+    sans-serif;
+  ;
+}
+
+h2 {
+  color: #02226D;
+}
+
+h3 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}

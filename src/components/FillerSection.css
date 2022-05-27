@@ -1,0 +1,13 @@
+.filler-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filler-section {
+  height: 400px;
+}
+
+.bg-image {
+  background-image: url('./Images/midsecbg.png');
+}

@@ -1,0 +1,17 @@
+.review {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  height: auto;
+  margin: auto;
+}
+
+.revimg {
+  height: 700px;
+}
+
+.review-overlay {
+  height: 600px;
+  background-position: center center;
+  background-size: cover;
+}

@@ -1,0 +1,20 @@
+.homeClient {
+  text-align: center;
+}
+
+.clients-content_heading h1 {
+  text-align: center;
+}
+
+.clients-logo {
+  padding: 44px 35px 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 414px) {
+  .clients-logo {
+    flex-wrap: wrap;
+  }
+}
