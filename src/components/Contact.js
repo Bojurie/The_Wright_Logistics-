@@ -35,34 +35,37 @@ const ContactForm = () => {
         </div>
          <div className='contact-content-wrapper'>
             <form onSubmit={handleSubmit} className="main-form">
-              <div className='form-input1'>      
-                <input 
-                  type="text" 
-                  id="name" 
-                  required 
-                  placeholder='Enter name...' />
+              <div className='contact-main-form'>
+                <div className='form-input1'>      
+                  <input 
+                    type="text" 
+                    id="name" 
+                    required 
+                    placeholder='Enter name...' />
+                </div>
+                <div className='form-input1'>
+                  <input 
+                    type="email" 
+                    id="email" 
+                    required 
+                    placeholder='Enter Email...'/>
+                </div>
+                <div className='form-input1'>
+                  <input 
+                    type="phone" 
+                    id="phone" 
+                    required 
+                    placeholder='Enter Number' />
+                </div>
+                <div className='form-input1'>
+                  <input 
+                    type="subject" 
+                    id="subject" 
+                    required 
+                    placeholder='Subject...'/>
+                </div>
               </div>
-              <div className='form-input1'>
-                <input 
-                  type="email" 
-                  id="email" 
-                  required 
-                  placeholder='Enter Email...'/>
-              </div>
-              <div className='form-input1'>
-                <input 
-                  type="phone" 
-                  id="phone" 
-                  required 
-                  placeholder='Enter Number' />
-              </div>
-              <div className='form-input1'>
-                <input 
-                  type="subject" 
-                  id="subject" 
-                  required 
-                  placeholder='Subject...'/>
-              </div>
+              
               <div className='lower-contact'>
                 <textarea id="message" required placeholder='Enter Message...'/>
                 <button type="submit" className='btn  btn-outline-primary'>{status}

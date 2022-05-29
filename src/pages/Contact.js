@@ -109,7 +109,7 @@ const Contact = () => {
                         {submitted && !values.subject ? <span>Please enter your subject</span> : null}
                     </div>
                   </div>
-                  <div className='form-group1'>
+                  <div className='form-group3'>
 
                   
                     <div className="form-group">

@@ -39,9 +39,16 @@
 
   .right-side1 {
     width: 100%;
+
+  }
+
+  .right-side1 h3 {
+    padding: 40px 40px 10px;
   }
 
   ol {
     padding-right: .4rem;
   }
+
+
 }

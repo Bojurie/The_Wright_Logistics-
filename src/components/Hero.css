@@ -97,8 +97,8 @@
     z-index: 2;
     width: auto;
     /* height: 277px; */
-    left: 55px;
-    top: 318px;
+    left: 55px !important;
+    top: 318px !important;
   }
 
   .truckAbs img {
@@ -106,7 +106,7 @@
   }
 
   .Hero {
-    margin-bottom: 70px;
+    margin-bottom: 70px !important;
   }
 
   .carimage {
@@ -115,5 +115,19 @@
     height: 400px;
 
 
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .Hero {
+    margin-bottom: 100px;
+  }
+
+  .truckAbs {
+
+    width: 593px;
+    height: 339px;
+    left: 155px;
+    top: 530px;
   }
 }

@@ -114,3 +114,23 @@ img {
     /* margin-top: 10rem; */
   }
 }
+
+@media screen and (max-width: 820px) {
+  .About-img {
+    width: 50%;
+  }
+
+  .About-right {
+    width: 50%;
+  }
+
+  .About-Para {
+    height: auto;
+    width: 100%;
+
+  }
+
+  .About-right button {
+    margin: auto;
+  }
+}

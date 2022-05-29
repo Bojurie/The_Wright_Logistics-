@@ -11,3 +11,42 @@
 .bg-image {
   background-image: url('./Images/midsecbg.png');
 }
+
+@media screen and (max-width: 414px) {
+
+  .filler-section {
+    height: auto;
+  }
+
+  .home_about-content h1 {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .home_about-content h3 {
+    text-align: left;
+    padding: 0 20px 0;
+  }
+
+  .filler-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .home_about-content p {
+    padding: 20px;
+    text-align: left;
+
+  }
+
+  .filler-items h1 {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .filler-items img {
+    width: 300px;
+    padding: 0 0 20px;
+  }
+}
