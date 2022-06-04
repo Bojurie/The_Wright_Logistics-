@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Bojurie.github.io/The_Wright_Logistics-",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -28,8 +27,7 @@
   },
   "proxy": "http://localhost:3500",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build",
+   
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
